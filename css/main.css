@@ -103,6 +103,26 @@ body {
 
   background-color: rgba(127, 219, 255, 0.6);
   transition: background-color 250ms linear;
+  -webkit-animation: slide-up 3000ms ease-out;
+  animation: slide-up 50ms ease-out;
+}
+
+@-webkit-keyframes slide-up {
+	0% {
+		top: 10em;	
+	}
+	25% {
+		top: 0;
+	}
+}
+
+@keyframes slide-up {
+	0% {
+		top: 10em;	
+	}
+	25% {
+		top: 0;
+	}
 }
 
 .chart__item:hover .chart__bar {
