@@ -124,6 +124,12 @@ body {
   opacity: 0;
 
   text-align: center;
+  transition:all 250ms linear;
+}
+
+.chart__item:hover .chart__count {
+	top: -4em;
+	opacity: 1;
 }
 
 .chart__count::after {
